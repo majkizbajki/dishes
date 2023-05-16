@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useRoutes } from "react-router-dom";
+import { DishesPage } from "./pages/DishesPage";
+import { NotFoundPage } from "./pages/NotFoundPage";
+import { ThemeProvider, createTheme } from "@mui/material";
+import { theme } from "./constants/themes";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const muiTheme = createTheme({
+    palette: {
+      background: {
+        default: theme.colors.background,
+      },
+      primary: {
+        main: theme.colors.primary,
+      },
+      secondary: {
+        main: theme.colors.secondary,
+      },
+      text: {
+        primary: theme.colors.text,
+      },
+    },
+  });
+
+  const routes = useRoutes([
+    {
+      path: "/",
+      element: <DishesPage />,
+    },
+    {
+      path: "*",
+      element: <NotFoundPage />,
+    },
+  ]);
+
+  return <ThemeProvider theme={muiTheme}>{routes}</ThemeProvider>;
 }
 
 export default App;
