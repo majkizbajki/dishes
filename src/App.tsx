@@ -25,7 +25,7 @@ function App() {
 
   const routes = useRoutes([
     {
-      path: "/",
+      path: "/dishes",
       element: <DishesPage />,
     },
     {
