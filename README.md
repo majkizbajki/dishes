@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # Dishes
 
 The project was completed as a recruitment task in React technology using Typescript. Its main goal was to create a form containing dish name, preparation time, type and also some fields dependent on dish type. The libraries I used were mainly:
