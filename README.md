@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Dishes
 
 The project was completed as a recruitment task in React technology using Typescript. Its main goal was to create a form containing dish name, preparation time, type and also some fields dependent on dish type. The libraries I used were mainly:
@@ -32,3 +30,7 @@ First of all you need to clone the repository. Then open the main folder and typ
 ### `yarn start` or `npm start`
 
 **Note: Node version is v19.7.0 and npm is v9.5.0**
+
+## Demo
+
+[Check](https://majkizbajki.github.io/dishes)
