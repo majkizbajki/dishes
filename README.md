@@ -11,6 +11,8 @@ The project was completed as a recruitment task in React technology using Typesc
 - styled-components
 - validator
 
+The time it took me to complete the project - approximately 16 hours.
+
 ## Design
 
 The design of the page is based on a custom mockup created in [Figma](https://www.figma.com/file/cob3pXp7YDv270r1ycB13W/Dishes?type=design&node-id=0%3A1&t=VfSytdafdQ7wAsGm-1).
