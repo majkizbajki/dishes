@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dishes/static/css/main.073c9b0a.css",
+    "main.js": "/dishes/static/js/main.58d935dd.js",
+    "static/media/pizza.jpg": "/dishes/static/media/pizza.8f56b4fd1a3b00ba8e87.jpg",
+    "static/media/soup.jpg": "/dishes/static/media/soup.367cda9601a0be93ba0f.jpg",
+    "static/media/sandwich.jpg": "/dishes/static/media/sandwich.2e5c24205564492387d2.jpg",
+    "static/media/logo.png": "/dishes/static/media/logo.0faa2b82acc2a64a2244.png",
+    "index.html": "/dishes/index.html",
+    "main.073c9b0a.css.map": "/dishes/static/css/main.073c9b0a.css.map",
+    "main.58d935dd.js.map": "/dishes/static/js/main.58d935dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.58d935dd.js"
+  ]
+}
